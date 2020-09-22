@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>테이블 만들기 - 방콕 코딩 캠프</title>
+    <style>
+      table {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+      .table1 caption {
+        text-align: right;
+      }
+      th {
+        background-color: dodgerblue;
+        color: #fff;
+      }
+      th,
+      td {
+        border: 1px solid;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>테이블 #01</h1>
+    <table class="table1">
+      <caption>
+        부가세가 포함된 실제 지불금액입니다.
+      </caption>
+      <tr>
+        <th>상품명</th>
+        <th>월정액</th>
+        <th>제공혜택</th>
+      </tr>
+      <tr>
+        <td>지상파 무제한 즐기기</td>
+        <td>14,300원</td>
+        <td>
+          우리 가족 취향 저격, 국민 월정액! KBS, MBC, SBS 지상파 3사의 드라마,
+          예능 프로그램을 가장 빠르게 가장 경제적으로 즐길 수 있는 올레tv Best
+          추천 월정액 서비스
+        </td>
+      </tr>
+      <tr>
+        <td>CJ ENM 무제한 즐기기</td>
+        <td>14,300원</td>
+        <td>
+          세상의 모든 즐거움! tvN, Mnet, OCN, Olive 등 CJ ENM의 모든 드라마,
+          예능 프로그램을 무제한 볼 수 있는 인기 월정액 서비스
+        </td>
+      </tr>
+      <tr>
+        <td>JTBC 무제한 즐기기</td>
+        <td>7,700원</td>
+        <td>
+          부담 없는 가격으로 JTBC의 드라마, 예능 프로그램을 무제한으로 즐길 수
+          있는 인기 월정액 서비스
+        </td>
+      </tr>
+    </table>
+
+    <h1>테이블 #02</h1>
+    <table class="table2">
+      <tr>
+        <th colspan="4">Temperature</th>
+      </tr>
+      <tr>
+        <td>Month</td>
+        <td>High</td>
+        <td>Low</td>
+        <td>Average</td>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>48</td>
+        <td>37</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>49</td>
+        <td>37</td>
+        <td rowspan="2">43</td>
+      </tr>
+      <tr>
+        <td>March</td>
+        <td>52</td>
+        <td>39</td>
+      </tr>
+      <tr>
+        <td>April</td>
+        <td>58</td>
+        <td>43</td>
+        <td>47</td>
+      </tr>
+    </table>
+  </body>
+</html>
